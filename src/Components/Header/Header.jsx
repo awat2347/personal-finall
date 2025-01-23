@@ -15,10 +15,10 @@ const Header = () => {
           <div className={s.logo}>&lt;logo/&gt;</div>
 
           <div className={`${s.link} ${menuOpen ? s.active : ""}`}>
-            <a href="">About</a>
-            <a href="">Skills</a>
-            <a href="">Projects</a>
-            <button>Contact Me</button>
+            <a href="#About">About</a>
+            <a href="#Skill">Skills</a>
+            <a href="#Projects">Projects</a>
+            <button><a href="">Contact Me</a></button>
           </div>
 
           <div className={s.burger} onClick={toggleMenu}>

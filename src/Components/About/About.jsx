@@ -3,7 +3,7 @@ import s from './About.module.scss'
 const About = () => {
   return (
     <>
-        <section>
+        <section id='About'>
             <div className="container">
                 <div className={s.wrapper}>
 
